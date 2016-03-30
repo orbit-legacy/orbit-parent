@@ -6,3 +6,7 @@ Orbit Project Parents
 [![Gitter](https://img.shields.io/badge/style-Join_Chat-ff69b4.svg?style=flat&label=gitter)](https://gitter.im/orbit/orbit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 This repository contains the generic parent poms for Orbit projects.
+
+Developer & License
+======
+This project was developed by [BioWare](http://www.bioware.com), a division of [Electronic Arts](http://www.ea.com) and is licensed under the [BSD 3-Clause License](LICENSE).
