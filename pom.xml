@@ -150,10 +150,6 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 						</configuration>
 						<executions>
 							<execution>
-								<configuration>
-									<failOnError>false</failOnError>
-									<additionalOptions>-Xdoclint:none</additionalOptions>
-								</configuration>
 								<id>attach-javadocs</id>
 								<goals>
 									<goal>jar</goal>
@@ -166,6 +162,13 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 								</goals>
 							</execution>
 						</executions>
+						<dependencies>
+							<dependency>
+								<groupId>org.apache.commons</groupId>
+								<artifactId>commons-lang3</artifactId>
+								<version>3.7</version>
+							</dependency>
+						</dependencies>
 					</plugin>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
